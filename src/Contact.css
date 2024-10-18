@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contactos h1 {
+  color: #52B788;
+  font-size: 500%;
+  padding-top: 2%;
+  padding-left: 25%;
+}
+
+#contactos {
+  background-color: #1B4332;
+}
+
+.contato-inteiro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  flex-wrap: wrap; /* Permite que o conteúdo quebre em telas pequenas */
+}
+
+.logo {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-right: 10%;
+  flex: 0 0 auto; /* A div da logo vai se ajustar ao tamanho da imagem */
+}
+
+.logo img {
+  max-width: 100px; /* Define um tamanho adequado para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.nome {
+  text-align: right;
+  font-size: 200%;
+}
+
+.texto {
+  flex: 1; /* Permite que o texto ocupe o espaço restante sem quebrar a linha */
+  max-width: 100%; /* Limita a largura máxima do texto */
+}

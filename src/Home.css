@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #casa {
+    margin-top: 0;
+    background-color: #1B4332;
+}
+
+#casa h1 {
+    color: #52B788;
+    font-size: 500%;
+    padding-top: 15%;
+    padding-left: 25%;
+    
+}
+
+#casa p {
+    font-size: 200%;
+    padding-right: 9%;
+    padding-left: 15%;
+    padding-bottom: 25%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Alinha o conteúdo no topo verticalmente */
+    justify-content: space-between; /* Garante que o texto e a imagem fiquem nas extremidades */
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.text-content {
+    max-width: 100%; /* Limita a largura máxima do texto para não ocupar tudo */
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.image-container {
+    
+    flex-grow: 1; /* Faz o texto ocupar o espaço disponível */
+    margin-top: 5%;
+}
+
+.minha-Foto {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 0%; /* Espaço entre o texto e a imagem */
+    margin-top: 15%;
+    padding-right: 5%;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-container {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

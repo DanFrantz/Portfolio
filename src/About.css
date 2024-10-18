@@ -1,0 +1,62 @@
+#sobre {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1B4332;
+
+  }
+
+hr{
+    border: 1rem solid #081C15;
+}
+
+#titulo{
+    text-align: center;
+    color: #52B788;
+    font-size: 500%;
+    padding-top: 4%;
+    margin-bottom: 5%;
+}
+
+#botoes img{
+    height: 15%;
+    width: 25%;
+}
+#botoes button{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B4332;
+    border-color: #1B4332;    
+}
+#botoes{
+    display:flex;
+    height: 35%;
+    width: 100%;
+    padding-bottom: 6%;
+}
+#techsAtuais{
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+#techsAtuais p{
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+h2{
+    text-align-last: center;
+    font-size: 400%;
+}
+#tech-Container{
+    flex: 1;
+    max-width: 100%; /* Limita a largura do texto */
+    text-align: center; /* Opcional: centraliza o texto dentro da div */
+    padding-left: 10%;
+}
