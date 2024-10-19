@@ -42,7 +42,7 @@ return    (
     <div className="contato-inteiro">
         <div className="logo">
             <a href="https://github.com/DanFrantz" target="_blank">
-                <img src="GitHub.svg" alt="Icone do GitHub"></img>
+                <img src="/GitHub.svg" alt="Icone do GitHub"></img>
             </a>
         </div>
         <div className="nome">

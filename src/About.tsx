@@ -29,10 +29,10 @@ return(<section id="sobre">
     <h1 id="titulo">| Tecnologias |</h1>
     
     <div id="botoes">   
-                <button onClick={() => mudaTech("Java")}><img src="src/assets/Logo-java.png"></img></button>
-                <button onClick={() => mudaTech("JavaScript")}><img src="src/assets/Logo-javaScript.webp"></img></button>
-                <button onClick={() => mudaTech("CSS")}><img src="src/assets/CSS3_logo.svg.png"></img></button>
-                <button onClick={() => mudaTech("HTML")}><img src="src/assets/Logo-html.png"></img></button>
+                <button onClick={() => mudaTech("Java")}><img src="/Logo-java.png"></img></button>
+                <button onClick={() => mudaTech("JavaScript")}><img src="/Logo-javaScript.webp"></img></button>
+                <button onClick={() => mudaTech("CSS")}><img src="/CSS3_logo.svg.png"></img></button>
+                <button onClick={() => mudaTech("HTML")}><img src="/Logo-html.png"></img></button>
     </div>
     <h2>{tech}</h2>
     <div id="techsAtuais">

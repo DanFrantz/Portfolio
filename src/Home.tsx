@@ -14,7 +14,7 @@ const Home = () => {
                 </div>
                 <div className="image-container">
                     <img
-                        src="MinhaFoto.jpeg"
+                        src="/MinhaFoto.jpeg"
                         alt="Uma foto minha"
                         className="minha-Foto"
                     />
