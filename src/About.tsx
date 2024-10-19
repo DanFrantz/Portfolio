@@ -6,17 +6,17 @@ function myTechnologies(){
 const techs={
     Java:{
         description: "Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.",
-        logo:"src/assets/Logo-java.png"
+        logo:"Logo-java.png"
     },
     JavaScript: {
         description: "JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc",
-        logo:"src/assets/Logo-javaScript.webp"},
+        logo:"Logo-javaScript.webp"},
     CSS:{
         description:"CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.",
-        logo:"src\assets\CSS3_logo.svg.png"},
+        logo:"CSS3_logo.svg.png"},
     HTML:{
         description:"HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas.",
-        logo:"src/assets/Logo-html.png"
+        logo:"Logo-html.png"
     }
 }
 
